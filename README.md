@@ -25,11 +25,12 @@ Skip to [Progress](#progress) to see the current status of the project.
 ### ✅ DO
 - Correct clear misreadings.
 - Fix obvious word splits, but only if you’re sure of the correction.
-- Keep the original formatting (paragraphs, spacing) intact.
+- Keep the original formatting (paragraphs, spacing, apostrophe style, etc.) intact.
 
 ### ❌ DON'T
 - Relocate or reposition words.
-- Remove blank lines unless they are obviously incorrect.
+- Remove blank lines.
+- Remove blank spaces at end of lines.
 - Modify words unless you're sure they are OCR errors.
 
 ## Common OCR Errors & Corrections
@@ -39,6 +40,8 @@ Here are some common OCR mistakes to look out for:
 - `"cn"` versus `"en"` (e.g., `"cn nvrkvpv"` should be `"en nvrkvpv"`)
 - `"fnswv"` versus `"fuswv"`
 - `"inake"` versus `"hake"`
+- `,` versus `.`
+- `S` versus `8` (page number, chapter number, verse numbers, e.g.)
 
 ## Why Accuracy Matters
 
