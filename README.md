@@ -4,34 +4,7 @@ This project is dedicated to correcting text extracted from the Mvskoke translat
 
 Skip to [Progress](#progress) to see the current status of the project.
 
-## How to Contribute
-
-### Find an Error
-- Consider reviewing commits to see if any mistakes have been made when attempting to correct the text.
-- As you review the text, look for mistakes in spelling, spacing, punctuation, or formatting.
-
-### Fix the Error
-- Correct misrecognized letters and words.
-- Ensure proper word spacing and punctuation.
-- Maintain paragraph breaks and overall formatting as much as possible.
-
-### Submit Your Changes
-- Edit the text file directly.
-- Save your changes.
-- Submit them as a new contribution (pull request) on GitHub.
-
 ## Guidelines for Editing
-
-### ✅ DO
-- Correct clear misreadings.
-- Fix obvious word splits, but only if you’re sure of the correction.
-- Keep the original formatting (paragraphs, spacing, apostrophe style, etc.) intact.
-
-### ❌ DON'T
-- Relocate or reposition words.
-- Remove blank lines.
-- Remove blank spaces at end of lines.
-- Modify words unless you're sure they are OCR errors.
 
 ## Common OCR Errors & Corrections
 
@@ -49,9 +22,43 @@ The Mvskoke translation of the book of Genesis is a valuable resource for the Mv
 
 I was taught that those who worked on translating these biblical texts were extremely careful with their work. We should strive to act with the same care and respect for their efforts.
 
+### ✅ DO
+- Correct clear misreadings.
+- Fix obvious word splits, but only if you’re sure of the correction.
+- Keep the original formatting (paragraphs, spacing, apostrophe style, etc.) intact.
+
+### ❌ DON'T
+- Relocate or reposition words.
+- Remove blank lines.
+- Remove blank spaces at end of lines.
+- Modify words unless you're sure they are OCR errors.
+
 ---
 
-Thank you for contributing!
+## Process
+
+For the first pass through, the process is to amend one chapter at a time:
+
+1. With the scanned image pulled up along side the original OCR text, read
+   verse by verse, comparing the two and correcting any discrepancies in the
+   text.
+2. Once the chapter is complete, stage the changes using `git add --patch` and
+   be sure to review the changes you've made to each verse. Essentially this
+   be just like step 1.
+      a. Best to use `s` (split) to split large chunks of differences into
+         smaller, more manageable pieces.
+      b. For each chunk, look closely at the unchanged lines to be sure you
+         haven't missed anything.
+      c. Also look closely at the lines you've changed (in green) to be sure
+         you've made the correct changes and haven't missed anything.
+      d. Use `e` (edit) to make changes to the chunk if any of your changed lines
+         need additional work.
+      e. Do not use `e` to change the unchanged lines, even if you see you've
+         missed something. Instead, make note of the Chapter and verse number
+         and make the changes after you finish staging your made-so-far changes.
+3. Once you're satisfied with the changes you've made, commit, push, and send
+   a pull request.
+4. As chapters become complete, they can be confirmed and reconfirmed by anyone.
 
 ## Progress
 
