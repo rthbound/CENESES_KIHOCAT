@@ -102,7 +102,7 @@ Ceneses has 50 chapters. The status of each chapter is as follows:
 - ✅ Chapter 36
 - ✅ Chapter 37
 - ✅ Chapter 38
-- [ ] Chapter 39
+- ✅ Chapter 39
 - [ ] Chapter 40
 - [ ] Chapter 41
 - [ ] Chapter 42
